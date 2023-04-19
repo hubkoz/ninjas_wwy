@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en,pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyberpunk Wyszków</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/ninja.png">
+</head>
+<body>
+    <header class="header">
+        <section class="header__h1_container">
+            <h1><a href="index.html"><span class="header__h1 nowrap">WWY 07-200</span></a></h1>
+        </section>
+        <nav class="nav">
+            <p class="nav__p"><a href="index.html">Home</a></p>
+            <p class="nav__p"><a href="ninjas.html">Ninjas</a></p>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="container_cards_contact">
+            <article class="contact_card">
+                <h2 class="article__h2">Contact</h2>
+                <section class="mini-section"><h3 class="mini-section__h3">Instagram</h3><a href="https://www.instagram.com/jestesmyninjami" class="bold" target="_blank">jestesmyninjami</a></section>
+                <section class="mini-section"><h3 class="mini-section__h3">E-mail</h3><a href="mailto:ninjaswwy@gmail.com" class="bold">ninjaswwy@gmail.com</a></section>
+                <section class="mini-section"><h3 class="mini-section__h3">Phone</h3><a href="tel:997" class="bold">997-112-911</a></section>
+                <section class="mini-section"><h3 class="mini-section__h3">Address</h3>
+                    <address class="bold contact__address">
+                        Pol-and<br>
+                        District Maz0V<br>
+                        Svietojanska 70<br>
+                        07-200 Wyszkow<br>
+                    </address>
+                </section>
+            </article>
+            <article class="contact_card">
+                <h2 class="article__h2">Message Us</h2>
+                    <form action="https://httpbin.org/get" method="get">
+                        <fieldset class="noborder">
+                            <legend class="offscreen">send us a message</legend>
+                            <section class="mini-section">
+                                <p class="contact__p">
+                                    <label class="contact__label" for="name">Name</label><br>
+                                    <input class="contact__input" type="text" name="name" id="name" placeholder="name" autocomplete="on" required>
+                                </p>
+                                <p class="contact__p">
+                                    <label class="contact__label" for="email">Email</label><br>
+                                    <input class="contact__input" type="email" id="email" name="email" placeholder="email@mail.com" required>
+                                </p>
+                            </section>
+                            <section class="mini-section">
+                                <p class="contact__p">
+                                    <label class="contact__label" for="message">Message</label><br>
+                                    <textarea class="contact__textarea" name="messsage" id="message" placeholder="Your message" rows="5" required></textarea>
+                                </p>
+                            </section>
+                        </fieldset>
+                        <section class="contact__buttons">
+                            <button type="submit" class="button">Send</button>
+                            <button type="reset" class="button">Reset</button>
+                        </section>
+                    </form>
+            </article>
+        </section>
+        <section class="back_top back_top_contact"><a href="#">Back to Top</a></section>
+    </main>
+    <footer class="footer">
+        <p class="footer__p">Do not copy <span class="nowrap">&copy; Wyszkow Ninjas</span></p>
+    </footer>
+</body>
+</html>
